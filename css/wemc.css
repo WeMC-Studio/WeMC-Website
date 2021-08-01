@@ -52,3 +52,11 @@
     text-decoration: none;
     color: #fff;
 }
+.text-left
+{
+    text-align: left !important;
+}
+.text-right
+{
+    text-align: right !important;
+}
