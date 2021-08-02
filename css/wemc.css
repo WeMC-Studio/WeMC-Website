@@ -47,6 +47,23 @@
     text-align: left;
     letter-spacing: 0;
 }
+.container-footer
+{
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+.wemc-sm-12
+{
+    width: 100%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+.main-text
+{
+    top: 54px;
+}
 .link_white
 {
     text-decoration: none;
