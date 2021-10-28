@@ -11,12 +11,12 @@ $(function(){
 //  	}
 // });
 
-(function() {
+$(function() {
     var sUserAgent = navigator.userAgent;
     if (sUserAgent.indexOf('Android') > -1 || sUserAgent.indexOf('iPhone') > -1 || sUserAgent.indexOf('iPad') > -1 || sUserAgent.indexOf('iPod') > -1 || sUserAgent.indexOf('Symbian') > -1) {
         document.getElementById("fubuki-loading").className="loading-phone"
     } else {}
-})();
+});
 
 $(function(){
     if($(window).height()==$(document).height()){
