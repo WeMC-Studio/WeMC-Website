@@ -2,14 +2,21 @@ $(function(){
     $('#fullpage').fullpage();
 });
 
-$(function(){
-	if(window.matchMedia("(max-width: 767px)").matches){
-        // $(".fubuki-loading").addClass("loading-phone");
-		document.getElementById("fubuki-loading").className="loading-phone"
- 	}else {
-        // $(".fubuki-loading").removeClass("loading-phone");
- 	}
-});
+// $(function(){
+// 	if(window.matchMedia("(max-width: 767px)").matches){
+//         // $(".fubuki-loading").addClass("loading-phone");
+// 		document.getElementById("fubuki-loading").className="loading-phone"
+//  	}else {
+//         // $(".fubuki-loading").removeClass("loading-phone");
+//  	}
+// });
+
+(function() {
+    var sUserAgent = navigator.userAgent;
+    if (sUserAgent.indexOf('Android') > -1 || sUserAgent.indexOf('iPhone') > -1 || sUserAgent.indexOf('iPad') > -1 || sUserAgent.indexOf('iPod') > -1 || sUserAgent.indexOf('Symbian') > -1) {
+        document.getElementById("fubuki-loading").className="loading-phone"
+    } else {}
+})();
 
 $(function(){
     if($(window).height()==$(document).height()){
@@ -52,9 +59,19 @@ document.onreadystatechange = function(){
 	var web = document.getElementById('wemc-loading');
 	console.log(document.readyState)
 	if(document.readyState == 'complete'){
-		web.style.display = 'none'
+		var timer = setTimeout(function () {
+			web.style.display = 'none'
+		},1000);
 	}
 	if(document.readyState == 'loading'){
-		web.style.display = 'none'
+		var timer = setTimeout(function () {
+			web.style.display = 'none'
+		},1000);
+		// setTimeout("loading_done()",1000);
 	}
 }
+
+// function loading_done() {
+// 	var web = document.getElementById('wemc-loading');
+// 	web.style.display = 'none'
+// }
