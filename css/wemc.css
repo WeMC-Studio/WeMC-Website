@@ -189,6 +189,11 @@
     height: 100%; 
     background-color: white;
 }
+.loading-phone
+{
+    width: 100%;
+    height: auto;
+}
 .wemc-loading .text-loading
 {
     text-align: center;

@@ -3,10 +3,18 @@ $(function(){
 });
 
 $(function(){
+	if(window.matchMedia("(max-width: 767px)").matches){
+        // $(".fubuki-loading").addClass("loading-phone");
+		document.getElementById("fubuki-loading").className="loading-phone"
+ 	}else {
+        // $(".fubuki-loading").removeClass("loading-phone");
+ 	}
+});
+
+$(function(){
     if($(window).height()==$(document).height()){
       $(".footer").addClass("navbar-fixed-bottom");
-    }
-    else{
+    }else{
       $(".footer").removeClass(" navbar-fixed-bottom");
     }
   });
