@@ -32,3 +32,13 @@ $(function(){
     document.getElementById("mdjl-text").innerHTML=bodyBgs[randomBgIndex];
 	
 });
+
+$(function () {
+	document.onreadystatechange = function(){
+		var web = document.getElementById('wemc-loading');
+		console.log(document.readyState)
+		if(document.readyState == 'complete'){
+			web.style.display = 'none'
+		}
+	}
+});
