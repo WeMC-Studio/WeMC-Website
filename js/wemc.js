@@ -34,11 +34,19 @@ $(function(){
 });
 
 $(function () {
-	document.onreadystatechange = function(){
+	window.onload=function(){
 		var web = document.getElementById('wemc-loading');
-		console.log(document.readyState)
-		if(document.readyState == 'complete'){
-			web.style.display = 'none'
-		}
+		web.style.display = 'none'
 	}
+	
 });
+
+// $(function () {
+// 	document.onreadystatechange = function(){
+// 		var web = document.getElementById('wemc-loading');
+// 		console.log(document.readyState)
+// 		if(document.readyState == 'complete'){
+// 			web.style.display = 'none'
+// 		}
+// 	}
+// });
