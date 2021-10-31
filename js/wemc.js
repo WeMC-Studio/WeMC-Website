@@ -60,12 +60,14 @@ document.onreadystatechange = function(){
 	console.log(document.readyState)
 	if(document.readyState == 'complete'){
 		var timer = setTimeout(function () {
-			web.style.display = 'none'
+			document.getElementById("wemc-loading").style="transition: all 500ms ease-out; opacity: 0; z-index: -1;"
+			// web.style.display = 'none'
 		},1000);
 	}
 	if(document.readyState == 'loading'){
 		var timer = setTimeout(function () {
-			web.style.display = 'none'
+			document.getElementById("wemc-loading").style="transition: all 500ms ease-out; opacity: 0; z-index: -1;"
+			// web.style.display = 'none'
 		},1000);
 		// setTimeout("loading_done()",1000);
 	}
