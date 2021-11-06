@@ -14,7 +14,7 @@
 <local:MyCard Title="2021/08/20 更新日志" Margin="0,0,0,15" CanSwap="True" IsSwaped="False">
 	<StackPanel Margin="25,40,23,15">
 		<TextBlock Margin="20,5,20,0" FontSize="14" TextWrapping="Wrap" Foreground="#000000"
-                   Text="1. PCL II 启动器 配置文件测试"/>
+                   Text="1. PCL II 启动器 配置文件test"/>
 	</StackPanel>
 </local:MyCard>
 
