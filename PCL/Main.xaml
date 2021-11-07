@@ -1,26 +1,26 @@
-<local:MyCard Title="¹¦ÄÜ" Margin="0,0,0,15">
+<local:MyCard Title="åŠŸèƒ½" Margin="0,0,0,15">
 	<StackPanel Margin="25,40,23,15">
 		<StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
             <local:MyButton Margin="0,0,10,0" Width="120" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
-                   Text="·ÃÎÊ¹ÙÍø" EventType="´ò¿ªÍøÒ³" EventData="https://www.wemc.top/" />
+                   Text="è®¿é—®å®˜ç½‘" EventType="æ‰“å¼€ç½‘é¡µ" EventData="https://www.wemc.top/" />
             <local:MyButton Margin="0,0,10,0" Width="120" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
-                   Text="Íæ¼ÒÐ­Òé" EventType="´ò¿ªÍøÒ³" EventData="https://www.wemc.top/rules.html" />
+                   Text="çŽ©å®¶åè®®" EventType="æ‰“å¼€ç½‘é¡µ" EventData="https://www.wemc.top/rules.html" />
             <local:MyButton Margin="0,0,10,0" Width="120" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
-                   Text="¹ØÓÚÎÒÃÇ" EventType="´ò¿ªÍøÒ³" EventData="https://www.wemc.top/about.html" />
+                   Text="å…³äºŽæˆ‘ä»¬" EventType="æ‰“å¼€ç½‘é¡µ" EventData="https://www.wemc.top/about.html" />
         </StackPanel>
 	</StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="2021/08/20 ¸üÐÂÈÕÖ¾" Margin="0,0,0,15" CanSwap="True" IsSwaped="False">
+<local:MyCard Title="2021/08/20 æ›´æ–°æ—¥å¿—" Margin="0,0,0,15" CanSwap="True" IsSwaped="False">
 	<StackPanel Margin="25,40,23,15">
 		<TextBlock Margin="20,5,20,0" FontSize="14" TextWrapping="Wrap" Foreground="#000000"
-                   Text="1. PCL II Æô¶¯Æ÷ ÅäÖÃÎÄ¼þtest"/>
+                   Text="1. PCL II å¯åŠ¨å™¨ é…ç½®æ–‡ä»¶test"/>
 	</StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="2021/08/20 ¸üÐÂÈÕÖ¾ (Old)" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="2021/08/20 æ›´æ–°æ—¥å¿— (Old)" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
 	<StackPanel Margin="25,40,23,15">
 		<TextBlock Margin="20,5,20,0" FontSize="14" TextWrapping="Wrap" Foreground="#000000"
-                   Text="1. PCL II Æô¶¯Æ÷ ÅäÖÃÎÄ¼þ²âÊÔ"/>
+                   Text="1. PCL II å¯åŠ¨å™¨ é…ç½®æ–‡ä»¶æµ‹è¯•"/>
 	</StackPanel>
 </local:MyCard>
